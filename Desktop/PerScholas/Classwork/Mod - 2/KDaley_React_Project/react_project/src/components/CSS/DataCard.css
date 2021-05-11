@@ -1,7 +1,9 @@
 .cardBody{
-    background-color: red;
+    background-color: rgb(241, 178, 243);
     width: 20vw;
     align-self: center;
     justify-self: center;
+    border: solid 2pt black;
+    border-radius: 10%;
 }
 

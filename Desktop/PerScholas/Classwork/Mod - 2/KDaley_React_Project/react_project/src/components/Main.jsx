@@ -56,7 +56,7 @@ class Main extends Component {
                     })
 
                     :
-                    <h1> no diary data</h1>
+                    <h1> No Entry Added</h1>
 
                 }
                 </div>

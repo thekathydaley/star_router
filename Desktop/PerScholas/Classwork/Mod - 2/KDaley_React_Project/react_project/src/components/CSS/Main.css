@@ -3,13 +3,16 @@
     grid-template-rows: .5fr 1.5fr 2fr;
     min-height: 100vh;
     min-width: 100vw;
+    justify-content: center;
+    align-content: center;
 
 }
 .gridTwo{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    justify-content: center;
+    align-content: center;
 }
 
 .DataCard:nth-child(1){
@@ -21,3 +24,4 @@
 .DataCard:nth-child(3){
     grid-column:3 ;
 }
+
