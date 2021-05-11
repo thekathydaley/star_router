@@ -8,19 +8,19 @@ class DataCard extends Component {
             
 
                 <div className="cardBody">
-                    <h2>
-                        Food Log
-                </h2>
+                
+                       <b> Food Log </b>
+                
                     
-                    <p className="card"><b>Breakfast:</b> {listItem.breakfast.description} food at {listItem.breakfast.time} calories: {listItem.breakfast.calories}</p>
+                    <p className="card"><b>Breakfast:</b> {listItem.breakfast.description} at {listItem.breakfast.time} <b>Calories:</b> {listItem.breakfast.calories}</p>
 
-                    <p className="card"> <b>Lunch: </b>ate {listItem.lunch.description} food at {listItem.lunch.time} calories: {listItem.lunch.calories}</p>
+                    <p className="card"> <b>Lunch: </b> {listItem.lunch.description} at {listItem.lunch.time} <b>Calories:</b> {listItem.lunch.calories}</p>
 
-                    <p className="card"> <b>Dinner: </b> ate {listItem.dinner.description} food at {listItem.dinner.time} calories: {listItem.dinner.calories}</p>
+                    <p className="card"> <b>Dinner: </b> {listItem.dinner.description} at {listItem.dinner.time} <b>Calories:</b> {listItem.dinner.calories}</p>
 
-                    <p className="card"> <b>AM Snack: </b> ate {listItem.snack1.description} food at {listItem.snack1.time} calories: {listItem.snack1.calories}</p>
+                    <p className="card"> <b>AM Snack: </b> {listItem.snack1.description} at {listItem.snack1.time} <b>Calories:</b> {listItem.snack1.calories}</p>
 
-                    <p className="card"> <b>PM Snack: </b> ate {listItem.snack2.description} food at {listItem.snack2.time} calories: {listItem.snack2.calories}</p>
+                    <p className="card"> <b>PM Snack: </b> {listItem.snack2.description} at {listItem.snack2.time} <b>Calories:</b> {listItem.snack2.calories}</p>
 
                     <h3 className="totalCalories">Total Calories: {listItem.totalCalories}</h3>
 
